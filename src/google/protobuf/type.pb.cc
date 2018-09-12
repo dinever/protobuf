@@ -427,9 +427,9 @@ void Type::unsafe_arena_set_allocated_source_context(
   }
   source_context_ = source_context;
   if (source_context) {
-    
+
   } else {
-    
+
   }
   // @@protoc_insertion_point(field_unsafe_arena_set_allocated:google.protobuf.Type.source_context)
 }
@@ -1647,9 +1647,9 @@ void Enum::unsafe_arena_set_allocated_source_context(
   }
   source_context_ = source_context;
   if (source_context) {
-    
+
   } else {
-    
+
   }
   // @@protoc_insertion_point(field_unsafe_arena_set_allocated:google.protobuf.Enum.source_context)
 }
@@ -2493,9 +2493,9 @@ void Option::unsafe_arena_set_allocated_value(
   }
   value_ = value;
   if (value) {
-    
+
   } else {
-    
+
   }
   // @@protoc_insertion_point(field_unsafe_arena_set_allocated:google.protobuf.Option.value)
 }
@@ -2834,19 +2834,19 @@ void Option::InternalSwap(Option* other) {
 namespace google {
 namespace protobuf {
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Type* Arena::CreateMessage< ::google::protobuf::Type >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Type >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Type >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Field* Arena::CreateMessage< ::google::protobuf::Field >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Field >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Field >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Enum* Arena::CreateMessage< ::google::protobuf::Enum >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Enum >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Enum >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::EnumValue* Arena::CreateMessage< ::google::protobuf::EnumValue >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::EnumValue >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::EnumValue >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::google::protobuf::Option* Arena::CreateMessage< ::google::protobuf::Option >(Arena* arena) {
-  return Arena::CreateMessageInternal< ::google::protobuf::Option >(arena);
+  return Arena::CreateMessageInternal_< ::google::protobuf::Option >(arena);
 }
 }  // namespace protobuf
 }  // namespace google
